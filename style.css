@@ -30,7 +30,7 @@ body {
   color: white;
 }
 
-#buttons button {
+#buttons button, #buttons a {
   border: 0;
   background-color: coral;
   color: white;
@@ -38,5 +38,6 @@ body {
   border-radius: 100px;
   padding: 1rem 2rem;
   margin-top: 1rem;
+  text-decoration: none;
   margin-right: 2rem;
 }
