@@ -1,6 +1,7 @@
 import './style.css'
 import regions from './regions';
 import inregion from './inregion';
+import f from './f.jpg';
 
 const fucks = [];
 const btnClear = document.getElementById('clear');
@@ -9,7 +10,7 @@ const canv = document.getElementById('canv');
 const context = canv.getContext('2d');
 
 const img = new Image(680, 680);
-img.src = './f.jpg';
+img.src = f;
 img.onload = redraw;
 
 btnClear.onclick = redraw;
