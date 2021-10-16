@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(28, 16, 97);
+}
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+#logo {
+  font-size: 4em;
+  pointer-events: none;
+  user-select: none;
+}
+
+#container {
+  width: clamp(80%, 80%, 100%);
+  margin: 2em auto 0 auto;
+}
+
+#canv {
+  aspect-ratio: 1;
+}
+
+.tagline {
+  color: white;
+}
+
+#buttons button {
+  border: 0;
+  background-color: coral;
+  color: white;
+  font-size: 2em;
+  border-radius: 100px;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  margin-right: 2rem;
+}
